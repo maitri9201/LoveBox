@@ -30,8 +30,11 @@ function App() {
       <div className="card">
         {!accepted ? (
           <>
-           <img src={`${process.env.PUBLIC_URL}/celebration.gif`} alt="Cute Bear" className="bear" />
-
+           <img
+  src={`${process.env.PUBLIC_URL}/download.gif`}
+  alt="Cute Bear"
+  className="bear"
+/>
             <h1>Will you be my Valentine?</h1>
             <div className="buttons">
               <button className="yes-btn" onClick={handleYesClick}>
