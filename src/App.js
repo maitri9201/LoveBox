@@ -31,7 +31,7 @@ function App() {
         {!accepted ? (
           <>
            <img
-  src="/download.gif"
+  src={`${process.env.PUBLIC_URL}/download.gif`}
   alt="Cute Bear"
   className="bear"
 />
